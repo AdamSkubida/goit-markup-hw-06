@@ -72,15 +72,36 @@
                 <form class="data-form">
                   <label class="data-label">
                     Imie
-                    <input class="data-input" type="username" name="username" />
+                    <input class="data-input" type="text" name="username" />
+                    <svg
+                      class="data-input-icon data-user-icon"
+                      width="12px"
+                      height="12px"
+                    >
+                      <use href="./images/icons.svg#icon-user"></use>
+                    </svg>
                   </label>
                   <label class="data-label">
                     Telefon
                     <input class="data-input" type="tel" name="phone" />
+                    <svg
+                      class="data-input-icon data-phone-icon"
+                      width="14px"
+                      height="14px"
+                    >
+                      <use href="./images/icons.svg#icon-phone"></use>
+                    </svg>
                   </label>
                   <label class="data-label">
                     Email
                     <input class="data-input" type="email" name="email" />
+                    <svg
+                      class="data-input-icon data-phone-icon"
+                      width="19px"
+                      height="16px"
+                    >
+                      <use href="./images/icons.svg#icon-envelope2"></use>
+                    </svg>
                   </label>
                   <label class="data-label">
                     Komentarz
@@ -93,7 +114,24 @@
                     ></textarea>
                   </label>
                 </form>
+                <div class="data-checkbox-container">
+                  <input
+                    class="checkbox-appear-none data-checkbox-input"
+                    type="checkbox"
+                    id="checkbox-checking"
+                  />
+                  <label class="data-checkbox-label" for="checkbox-checking">
+                    Oświadczam iż akceptuję
+                    <a class="data-checkbox-link" href="">Regulamin</a>
+                    i
+                    <a class="data-checkbox-link" href=""
+                      >Polityke Prywatności</a
+                    >
+                  </label>
+                </div>
+                <button type="submit" class="data-button">Wyślij</button>
               </div>
+
               <button type="button" class="modal-button" data-modal-close>
                 <svg class="x-icon" width="10px" height="10px">
                   <use href="./images/icons.svg#icon-X"></use>
