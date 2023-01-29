@@ -72,36 +72,42 @@
                 <form class="data-form">
                   <label class="data-label">
                     Imie
-                    <input class="data-input" type="text" name="username" />
-                    <svg
-                      class="data-input-icon data-user-icon"
-                      width="12px"
-                      height="12px"
-                    >
-                      <use href="./images/icons.svg#icon-user"></use>
-                    </svg>
+                    <div class="data-hover">
+                      <input class="data-input" type="text" name="username" />
+                      <svg
+                        class="data-input-icon data-user-icon"
+                        width="12px"
+                        height="12px"
+                      >
+                        <use href="./images/icons.svg#icon-user"></use>
+                      </svg>
+                    </div>
                   </label>
                   <label class="data-label">
                     Telefon
-                    <input class="data-input" type="tel" name="phone" />
-                    <svg
-                      class="data-input-icon data-phone-icon"
-                      width="14px"
-                      height="14px"
-                    >
-                      <use href="./images/icons.svg#icon-phone"></use>
-                    </svg>
+                    <div class="data-hover">
+                      <input class="data-input" type="tel" name="phone" />
+                      <svg
+                        class="data-input-icon data-phone-icon"
+                        width="14px"
+                        height="14px"
+                      >
+                        <use href="./images/icons.svg#icon-phone"></use>
+                      </svg>
+                    </div>
                   </label>
                   <label class="data-label">
                     Email
-                    <input class="data-input" type="email" name="email" />
-                    <svg
-                      class="data-input-icon data-phone-icon"
-                      width="19px"
-                      height="16px"
-                    >
-                      <use href="./images/icons.svg#icon-envelope2"></use>
-                    </svg>
+                    <div class="data-hover">
+                      <input class="data-input" type="email" name="email" />
+                      <svg
+                        class="data-input-icon data-phone-icon"
+                        width="19px"
+                        height="16px"
+                      >
+                        <use href="./images/icons.svg#icon-envelope2"></use>
+                      </svg>
+                    </div>
                   </label>
                   <label class="data-label">
                     Komentarz
@@ -464,6 +470,25 @@
               </svg>
             </a>
           </div>
+        </div>
+        <div class="footer-form-box">
+          <form class="footer-form">
+            <label>
+              <p class="footer-form-tittle">ZAPISZ SIE DO NEWSLETTERA</p>
+              <input
+                class="footer-input"
+                type="text"
+                name="newsletter-email"
+                placeholder="E-mail"
+              />
+            </label>
+          </form>
+          <button class="footer-form-button" type="submit">
+            <p>Zapisz się</p>
+            <svg width="24px" height="24px">
+              <use href="./images/icons.svg#icon-paperplane"></use>
+            </svg>
+          </button>
         </div>
       </div>
     </footer>
