@@ -70,10 +70,15 @@
               </h3>
               <div class="modal-box-form">
                 <form class="data-form">
-                  <label class="data-label">
+                  <label class="data-label" for="username">
                     Imie
                     <div class="data-hover">
-                      <input class="data-input" type="text" name="username" />
+                      <input
+                        class="data-input"
+                        type="text"
+                        name="username"
+                        id="username"
+                      />
                       <svg
                         class="data-input-icon data-user-icon"
                         width="12px"
@@ -83,10 +88,15 @@
                       </svg>
                     </div>
                   </label>
-                  <label class="data-label">
+                  <label class="data-label" for="user-phone">
                     Telefon
                     <div class="data-hover">
-                      <input class="data-input" type="tel" name="phone" />
+                      <input
+                        class="data-input"
+                        type="tel"
+                        name="phone"
+                        id="user-phone"
+                      />
                       <svg
                         class="data-input-icon data-phone-icon"
                         width="14px"
@@ -96,10 +106,15 @@
                       </svg>
                     </div>
                   </label>
-                  <label class="data-label">
+                  <label class="data-label" for="user-email">
                     Email
                     <div class="data-hover">
-                      <input class="data-input" type="email" name="email" />
+                      <input
+                        class="data-input"
+                        type="email"
+                        name="email"
+                        id="user-email"
+                      />
                       <svg
                         class="data-input-icon data-phone-icon"
                         width="19px"
@@ -109,7 +124,7 @@
                       </svg>
                     </div>
                   </label>
-                  <label class="data-label">
+                  <label class="data-label" for="text-area">
                     Komentarz
                     <textarea
                       class="data-input data-textarea"
@@ -117,6 +132,7 @@
                       name="text"
                       placeholder="Wprowadź tekst"
                       rows="5"
+                      id="textarea"
                     ></textarea>
                   </label>
                 </form>
@@ -127,9 +143,9 @@
                     id="checkbox-checking"
                   />
                   <label class="data-checkbox-label" for="checkbox-checking">
-                    Oświadczam iż akceptuję
-                    <a class="data-checkbox-link" href="">Regulamin</a>
-                    i
+                    Oświadczam iż akceptuję&nbsp;
+                    <a class="data-checkbox-link" href="">Regulamin&nbsp;</a>
+                    i&nbsp;
                     <a class="data-checkbox-link" href=""
                       >Polityke Prywatności</a
                     >
@@ -473,18 +489,19 @@
         </div>
         <div class="footer-form-box">
           <form class="footer-form">
-            <label>
+            <label for="footer-user-email">
               <p class="footer-form-tittle">ZAPISZ SIE DO NEWSLETTERA</p>
               <input
                 class="footer-input"
                 type="email"
                 name="newsletter-email"
                 placeholder="E-mail"
+                id="footer-user-email"
               />
             </label>
           </form>
           <button class="footer-form-button" type="submit">
-            <p>Zapisz się</p>
+            <h5>Zapisz się</h5>
             <svg width="24px" height="24px">
               <use href="./images/icons.svg#icon-paperplane"></use>
             </svg>
