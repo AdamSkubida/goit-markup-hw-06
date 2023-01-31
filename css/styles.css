@@ -323,6 +323,8 @@ body {
 }
 
 .data-button {
+  position: relative;
+  left: 124px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -332,7 +334,6 @@ body {
   color: rgba(255, 255, 255, 1);
   padding: 10px 76px 10px 76px;
   cursor: pointer;
-  margin: 0 auto;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -589,6 +590,10 @@ body {
 .footer-form-box {
   display: flex;
   margin: 72px 0 0 78px;
+}
+
+.footer-form {
+  display: flex;
 }
 
 .footer-form-tittle {
